@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<header>
+  <a href="index.html">
+    <img src="Pictures/converted.png" alt="Logo Website" width="150" height="auto">
+  </a>
+</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Junio Decoration - Kontraktor, Landscape, Interior & Perdagangan Umum</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        darkslate: '#0f172a'
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        heading: ['"Outfit"', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Outfit', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 antialiased selection:bg-brand-600 selection:text-white">
+
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3 group">
+                <img src="WhatsApp Image 2026-09-25 at 13.19.49_2.jpeg" alt="CV Junio Decoration Logo" class="h-12 w-auto object-contain rounded-lg shadow-sm group-hover:scale-105 transition-transform" onerror="this.src='https://placehold.co/150x50/16a34a/ffffff?text=Junio+Decoration'">
+                <div class="hidden sm:block">
+                    <span class="block font-extrabold text-base text-gray-900 tracking-tight leading-tight">CV. JUNIO DECORATION</span>
+                    <span class="block text-[10px] font-medium text-brand-700 tracking-wider uppercase">Kontraktor & Desain Profesional</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-gray-600">
+                <a href="#beranda" class="hover:text-brand-600 transition-colors">Beranda</a>
+                <a href="#tentang" class="hover:text-brand-600 transition-colors">Tentang Kami</a>
+                <a href="#layanan" class="hover:text-brand-600 transition-colors">Layanan</a>
+                <a href="#proyek" class="hover:text-brand-600 transition-colors">Portofolio</a>
+                <a href="#kontak" class="hover:text-brand-600 transition-colors">Kontak</a>
+            </nav>
+
+            <div class="hidden md:flex items-center gap-4">
+                <a href="https://wa.me/6281296913536?text=Halo%20CV%20Junio%20Decoration,%20saya%20tertarik%20dengan%20layanan%20Anda." target="_blank" class="bg-brand-600 hover:bg-brand-700 text-white font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-brand-600/20 transition-all duration-300 flex items-center gap-2 text-sm">
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>Hubungi Kami</span>
+                </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button id="menu-btn" class="md:hidden text-gray-700 text-2xl focus:outline-none">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-6 py-4 space-y-3 shadow-lg">
+            <a href="#beranda" class="block text-gray-700 hover:text-brand-600 font-medium py-1">Beranda</a>
+            <a href="#tentang" class="block text-gray-700 hover:text-brand-600 font-medium py-1">Tentang Kami</a>
+            <a href="#layanan" class="block text-gray-700 hover:text-brand-600 font-medium py-1">Layanan</a>
+            <a href="#proyek" class="block text-gray-700 hover:text-brand-600 font-medium py-1">Portofolio</a>
+            <a href="#kontak" class="block text-gray-700 hover:text-brand-600 font-medium py-1">Kontak</a>
+            <div class="pt-2">
+                <a href="https://wa.me/6281296913536?text=Halo%20CV%20Junio%20Decoration,%20saya%20tertarik%20dengan%20layanan%20Anda." target="_blank" class="w-full bg-brand-600 hover:bg-brand-700 text-white font-semibold py-2.5 rounded-xl text-center flex items-center justify-center gap-2 text-sm shadow-md">
+                    <i class="fa-brands fa-whatsapp text-lg"><span>WhatsApp Kami</span></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="beranda" class="relative overflow-hidden bg-gradient-to-b from-brand-50/50 via-white to-white py-20 lg:py-28">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-award text-brand-600"></i> Solusi Konstruksi & Dekorasi Terpercaya
+                    </div>
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 tracking-tight leading-tight">
+                        Wujudkan Bangunan Impian Bersama <span class="text-brand-600">CV Junio Decoration</span>
+                    </h1>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 font-normal">
+                        Ahli dalam bidang kontraktor, lanskap asri, interior gedung bangunan yang elegan, serta perdagangan umum berkualitas tinggi di Cianjur dan sekitarnya.
+                    </p>
+                    <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="https://wa.me/6281296913536?text=Halo%20CV%20Junio%20Decoration,%20saya%20ingin%20berkonsultasi%20mengenai%20proyek." target="_blank" class="w-full sm:w-auto bg-brand-600 hover:bg-brand-700 text-white font-semibold px-8 py-4 rounded-xl shadow-xl shadow-brand-600/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-base">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Konsultasi Gratis via WhatsApp</span>
+                        </a>
+                        <a href="#layanan" class="w-full sm:w-auto bg-white hover:bg-gray-50 text-gray-800 font-semibold px-8 py-4 rounded-xl border border-gray-200 shadow-sm transition-all flex items-center justify-center gap-2 text-base">
+                            <span>Lihat Layanan</span>
+                            <i class="fa-solid fa-arrow-right text-xs"></i>
+                        </a>
+                    </div>
+                    <!-- Quick stats -->
+                    <div class="grid grid-cols-3 gap-6 pt-8 border-t border-gray-100 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <span class="block text-3xl font-extrabold text-gray-900">100+</span>
+                            <span class="text-xs text-gray-500 font-medium">Proyek Selesai</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-extrabold text-gray-900">10+</span>
+                            <span class="text-xs text-gray-500 font-medium">Tahun Pengalaman</span>
+                        </div>
+                        <div>
+                            <span class="block text-3xl font-extrabold text-gray-900">100%</span>
+                            <span class="text-xs text-gray-500 font-medium">Kepuasan Klien</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        <div class="absolute -inset-2 bg-gradient-to-r from-brand-600 to-emerald-400 rounded-3xl blur-xl opacity-20 animate-pulse"></div>
+                        <div class="relative bg-white p-3 rounded-3xl shadow-2xl border border-gray-100">
+                            <img src="https://images.unsplash.com/photo-1541888946425-d0fbb18f2496?auto=format&fit=crop&q=80&w=800" alt="Kontraktor dan Bangunan" class="rounded-2xl object-cover h-[420px] w-full">
+                            <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-gray-100 flex items-center gap-4">
+                                <div class="w-12 h-12 bg-brand-50 rounded-xl flex items-center justify-center text-brand-600 text-xl font-bold flex-shrink-0">
+                                    <i class="fa-solid fa-helmet-safety"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900 text-sm">Standar Kualitas Tinggi</h4>
+                                    <p class="text-xs text-gray-500">Pengerjaan teliti, tepat waktu & bergaransi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-20 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=600" alt="Interior Desain" class="rounded-2xl object-cover h-64 w-full shadow-md">
+                    <img src="https://images.unsplash.com/photo-1558445420-aeb2c3ac46d9?auto=format&fit=crop&q=80&w=600" alt="Landscape Taman" class="rounded-2xl object-cover h-64 w-full shadow-md mt-6">
+                </div>
+                <div class="lg:col-span-6 space-y-6">
+                    <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+                        Tentang CV Junio Decoration
+                    </div>
+                    <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                        Mitra Profesional Untuk Setiap Kebutuhan Konstruksi & Estetika Anda
+                    </h2>
+                    <p class="text-gray-600 leading-relaxed">
+                        <strong>CV Junio Decoration</strong> adalah badan usaha resmi yang bergerak di bidang kontraktor pembangunan, lanskap taman, interior gedung bangunan, serta perdagangan umum. Berbasis di Cianjur, kami berkomitmen memberikan hasil kerja terbaik yang memadukan kekuatan struktur, kenyamanan interior, dan keindahan estetika luar ruang.
+                    </p>
+                    <div class="space-y-4 pt-2">
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-check text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Tenaga Ahli Berpengalaman</h4>
+                                <p class="text-sm text-gray-600">Didukung oleh tim arsitek, desainer, dan tukang profesional yang ahli di bidangnya.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-check text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Kualitas Material Terjamin</h4>
+                                <p class="text-sm text-gray-600">Pengadaan material terbaik melalui lini perdagangan umum kami yang terpercaya.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-brand-100 text-brand-600 flex items-center justify-center flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-check text-lg"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Pelayanan Transparan & Tepat Waktu</h4>
+                                <p class="text-sm text-gray-600">Komunikasi yang jelas dan komitmen penyelesaian proyek sesuai tenggat waktu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+                    Layanan Unggulan
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                    Solusi Komprehensif Untuk Bangunan & Lingkungan Anda
+                </h2>
+                <p class="text-gray-600 text-base">
+                    Kami menyediakan berbagai layanan profesional mulai dari perencanaan awal konstruksi hingga dekorasi interior dan lansekap luar ruangan.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Service 1: Kontraktor -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-xl shadow-gray-100 hover:shadow-2xl hover:border-brand-200 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-building-shield"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Kontraktor Umum</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Pembangunan gedung komersial, renovasi rumah, ruko, kantor, dan fasilitas publik dengan standar konstruksi teruji dan kokoh.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281296913536?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20Kontraktor." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm group-hover:text-brand-700">
+                        <span>Pesan Layanan</span>
+                        <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2: Landscape -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-xl shadow-gray-100 hover:shadow-2xl hover:border-brand-200 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-tree"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Landscape & Taman</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Desain dan pembuatan lanskap taman minimalis, tropis, vertikal garden, serta perawatan area hijau luar ruangan yang asri dan estetis.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281296913536?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20Landscape." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm group-hover:text-brand-700">
+                        <span>Pesan Layanan</span>
+                        <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3: Interior Gedung Bangunan -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-xl shadow-gray-100 hover:shadow-2xl hover:border-brand-200 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Interior Gedung</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Dekorasi interior modern, kitchen set, partisi ruangan, plafon artistik, pencahayaan, dan tata ruang gedung atau hunian yang mewah.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281296913536?text=Halo,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20Interior." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm group-hover:text-brand-700">
+                        <span>Pesan Layanan</span>
+                        <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4: Perdagangan Umum -->
+                <div class="bg-white rounded-2xl p-8 border border-gray-100 shadow-xl shadow-gray-100 hover:shadow-2xl hover:border-brand-200 transition-all duration-300 group flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-2xl mb-6 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-boxes-stacked"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Perdagangan Umum</h3>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-6">
+                            Penyediaan material bangunan, perlengkapan dekorasi, suplai kebutuhan proyek komersial dan umum dengan kualitas terkurasi.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/6281296913536?text=Halo,%20saya%20ingin%20berkonsultasi%20mengenai%20Perdagangan%20Umum." target="_blank" class="inline-flex items-center gap-2 text-brand-600 font-semibold text-sm group-hover:text-brand-700">
+                        <span>Pesan Layanan</span>
+                        <i class="fa-solid fa-arrow-right-long transition-transform group-hover:translate-x-1"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="proyek" class="py-24 bg-gray-50/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase">
+                    Portofolio Pilihan
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                    Hasil Karya & Proyek Terbaru Kami
+                </h2>
+                <p class="text-gray-600 text-base">
+                    Beberapa dokumentasi proyek nyata dari pengerjaan konstruksi, interior, hingga lanskap yang telah kami selesaikan dengan sukses.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&q=80&w=600" alt="Proyek Kontraktor" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                            <span class="text-white text-xs font-semibold bg-brand-600 px-3 py-1 rounded-lg">Konstruksi Bangunan</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg mb-2">Pembangunan Gedung & Ruko Komersial</h4>
+                        <p class="text-gray-600 text-sm">Pekerjaan struktur beton bertulang, finishing eksterior, dan penataan area parkir.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=600" alt="Proyek Interior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                            <span class="text-white text-xs font-semibold bg-brand-600 px-3 py-1 rounded-lg">Interior Gedung</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg mb-2">Renovasi Interior Ruang Tamu & Kantor</h4>
+                        <p class="text-gray-600 text-sm">Pemasangan panel dinding modern, pencahayaan LED strip artistik, dan custom furniture.</p>
+                    </div>
+                </div>
+
+                <!-- Portfolio Item 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-md group">
+                    <div class="relative overflow-hidden h-64">
+                        <img src="https://images.unsplash.com/photo-1557429287-b2e26467fc2b?auto=format&fit=crop&q=80&w=600" alt="Proyek Lanskap" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-6">
+                            <span class="text-white text-xs font-semibold bg-brand-600 px-3 py-1 rounded-lg">Landscape Taman</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h4 class="font-bold text-gray-900 text-lg mb-2">Penataan Taman Lanskap Minimalis Asri</h4>
+                        <p class="text-gray-600 text-sm">Pembuatan taman hijau hias, batu koral sikat, dan kolam ikan air mancur minimalis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+                <!-- Info Column -->
+                <div class="lg:col-span-5 space-y-8">
+                    <div>
+                        <div class="inline-flex items-center gap-2 bg-brand-100 text-brand-800 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wide uppercase mb-4">
+                            Hubungi Kami
+                        </div>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 tracking-tight">
+                            Mari Diskusikan Proyek Anda Bersama Kami
+                        </h2>
+                        <p class="text-gray-600 text-base mt-4">
+                            Kami siap melayani konsultasi langsung, survei lokasi, maupun penawaran kerja sama untuk proyek konstruksi dan dekorasi Anda.
+                        </p>
+                    </div>
+
+                    <div class="space-y-6">
+                        <!-- Address -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-xl flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Alamat Kantor</h4>
+                                <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+                                    Jamaras, RT./RW.002/005, Sarampad, Kec. Cugenang, Kabupaten Cianjur, Jawa Barat 43252
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- WhatsApp -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-xl flex-shrink-0 mt-1">
+                                <i class="fa-brands fa-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">WhatsApp / Telepon</h4>
+                                <p class="text-sm text-gray-600 mt-1">
+                                    <a href="https://wa.me/6281296913536" target="_blank" class="text-brand-600 font-semibold hover:underline">0812-9691-3536</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Operational Hours -->
+                        <div class="flex items-start gap-4">
+                            <div class="w-12 h-12 bg-brand-50 rounded-2xl flex items-center justify-center text-brand-600 text-xl flex-shrink-0 mt-1">
+                                <i class="fa-solid fa-clock"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-base">Jam Operasional</h4>
+                                <p class="text-sm text-gray-600 mt-1">
+                                    Senin - Sabtu: 08.00 - 17.00 WIB
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <a href="https://wa.me/6281296913536?text=Halo%20CV%20Junio%20Decoration,%20saya%20ingin%20mengatur%20jadwal%20survei%20lokasi." target="_blank" class="inline-flex items-center gap-3 bg-brand-600 hover:bg-brand-700 text-white font-semibold px-8 py-4 rounded-xl shadow-lg shadow-brand-600/20 transition-all">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>Chat WhatsApp Sekarang</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Map / Card Column -->
+                <div class="lg:col-span-7">
+                    <div class="bg-gray-50 border border-gray-200 rounded-3xl p-8 shadow-inner h-full flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center gap-3 mb-6">
+                                <div class="w-10 h-10 bg-brand-600 text-white rounded-xl flex items-center justify-center">
+                                    <i class="fa-solid fa-map-location-dot"></i>
+                                </div>
+                                <h3 class="text-xl font-bold text-gray-900">Lokasi Kami di Cianjur</h3>
+                            </div>
+                            <p class="text-sm text-gray-600 mb-6 leading-relaxed">
+                                Kunjungi kantor kami atau undang tim kami untuk melakukan survei langsung ke lokasi Anda di wilayah Cianjur dan sekitarnya.
+                            </p>
+                            <!-- Embedded placeholder map style card -->
+                            <div class="rounded-2xl overflow-hidden border border-gray-200 bg-white shadow-md relative h-80 flex items-center justify-center">
+                                <div class="absolute inset-0 bg-cover bg-center opacity-75" style="background-image: url('https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&q=80&w=800');"></div>
+                                <div class="absolute inset-0 bg-white/60 backdrop-blur-xs flex flex-col items-center justify-center text-center p-6">
+                                    <div class="w-16 h-16 bg-brand-600 text-white rounded-2xl flex items-center justify-center shadow-xl mb-3 text-2xl animate-bounce">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                    <h4 class="font-extrabold text-gray-900 text-lg">CV Junio Decoration</h4>
+                                    <p class="text-xs text-gray-600 mt-1 max-w-xs">Jamaras, RT./RW.002/005, Sarampad, Kec. Cugenang, Kabupaten Cianjur, Jawa Barat 43252</p>
+                                    <a href="https://maps.google.com/?q=Sarampad+Cugenang+Cianjur" target="_blank" class="mt-4 bg-gray-900 hover:bg-gray-800 text-white font-medium text-xs px-4 py-2 rounded-lg shadow transition-all">
+                                        Buka di Google Maps
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-8 pt-6 border-t border-gray-200/60 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-2">
+                            <span>Respon Cepat via WhatsApp</span>
+                            <span class="font-semibold text-brand-700">0812-9691-3536</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-darkslate text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <img src="WhatsApp Image 2026-09-25 at 13.19.49_2.jpeg" alt="CV Junio Decoration Logo" class="h-10 w-auto object-contain rounded-lg bg-white/10 p-1" onerror="this.src='https://placehold.co/120x40/16a34a/ffffff?text=Junio+Decoration'">
+                        <span class="font-extrabold text-lg text-white tracking-tight">CV. JUNIO DECORATION</span>
+                    </div>
+                    <p class="text-gray-400 text-sm max-w-sm leading-relaxed">
+                        Solusi terbaik dan profesional di bidang kontraktor, lanskap, interior gedung bangunan, serta perdagangan umum di Kabupaten Cianjur.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Navigasi Cepat</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="#beranda" class="hover:text-white transition-colors">Beranda</a></li>
+                        <li><a href="#tentang" class="hover:text-white transition-colors">Tentang Kami</a></li>
+                        <li><a href="#layanan" class="hover:text-white transition-colors">Layanan</a></li>
+                        <li><a href="#proyek" class="hover:text-white transition-colors">Portofolio</a></li>
+                        <li><a href="#kontak" class="hover:text-white transition-colors">Kontak</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white text-sm uppercase tracking-wider mb-4">Layanan Utama</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><span class="hover:text-white transition-colors">Kontraktor Umum</span></li>
+                        <li><span class="hover:text-white transition-colors">Landscape & Taman</span></li>
+                        <li><span class="hover:text-white transition-colors">Interior Gedung</span></li>
+                        <li><span class="hover:text-white transition-colors">Perdagangan Umum</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="pt-8 border-t border-gray-800 text-center text-xs text-gray-500 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p>&copy; 2026 CV Junio Decoration. All rights reserved.</p>
+                <p>Jamaras, Sarampad, Cugenang, Cianjur, Jawa Barat.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Script for Mobile Menu -->
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on clicking links
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
